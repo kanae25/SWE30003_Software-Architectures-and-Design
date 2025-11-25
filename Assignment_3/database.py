@@ -41,6 +41,7 @@ class Database:
             Product(4, "SNACK002", "Red Bean Buns", 3.49, "Sweet n Tasty Red Bean Buns", 30, "/static/images/buns.jpg"),
             Product(5, "DRINK002", "Goddess Water", 0.99, "Bottled water", 200, "/static/images/water.jpg"),
             Product(6, "DRINK003", "Sam Dua", 5.19, "Vietnamese tea", 150, "/static/images/samdua.jpg"),
+            Product(7, "ICE001", "Ice Cream Cup MiniVanilla", 2.00, "Small vanilla ice cream.", 28, "/static/images/icvanilla.jpg"),
         ]
         for product in products:
             self.products[product.product_id] = product
