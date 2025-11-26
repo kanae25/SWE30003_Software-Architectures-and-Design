@@ -42,14 +42,14 @@ class Database:
             Product(5, "DRINK002", "Goddess Water", 0.99, "Bottled water", 200, "/static/images/water.jpg"),
             Product(6, "DRINK003", "Sam Dua", 5.19, "Vietnamese tea", 150, "/static/images/samdua.jpg"),
             Product(7, "ICE001", "Ice Cream Cup MiniVanilla", 2.00, "Small vanilla ice cream.", 28, "/static/images/icvanilla.jpg"),
-            Product(8, "DRINK004", "Iced Tea Lemon", 2.20, "Sweet lemon-flavoured iced tea.", 30, ""),
-            Product(9, "DRINK005", "BoostX Energy Drink", 3.50, "High-caffeine energy drink for quick energy.", 18, ""),
-            Product(10, "CANDY002", "CrunchyMax Chocolate Bar", 1.80, "Milk chocolate bar with crispy rice.", 55, ""),
-            Product(11, "SNACK003", "Salted Potato Chips", 2.50, "Classic salty potato chip snack.", 24, ""),
-            Product(12, "FOOD001", "Chicken Instant Noodles", 1.20, "Cup noodles with chicken flavour.", 60, ""),
-            Product(13, "FOOD002", "Ham & Cheese Sandwich", 4.20, "Ready-to-eat fresh sandwich.", 12, ""),
-            Product(14, "DRINK006", "Cold Brew Coffee Can", 2.90, "Smooth ready-to-drink coffee.", 26, ""),
-            Product(15, "DAIRY001", "Strawberry Yogurt Cup", 1.70, "Creamy yogurt with real strawberry bits.", 19, ""),
+            Product(8, "DRINK004", "Iced Tea Lemon", 2.20, "Sweet lemon-flavoured iced tea.", 30, "/static/images/icedtea.jpg"),
+            Product(9, "DRINK005", "BoostX Energy Drink", 3.50, "High-caffeine energy drink for quick energy.", 18, "/static/images/boostx.jpg"),
+            Product(10, "CANDY002", "CrunchyMax Chocolate Bar", 1.80, "Milk chocolate bar with crispy rice.", 55, "/static/images/crunchymax.jpg"),
+            Product(11, "SNACK003", "Salted Potato Chips", 2.50, "Classic salty potato chip snack.", 24, "/static/images/saltedchips.jpg"),
+            Product(12, "FOOD001", "Chicken Instant Noodles", 1.20, "Cup noodles with chicken flavour.", 60, "/static/images/indomie.jpg"),
+            Product(13, "FOOD002", "Ham & Cheese Sandwich", 4.20, "Ready-to-eat fresh sandwich.", 12, "/static/images/sandwich.jpg"),
+            Product(14, "DRINK006", "Cold Brew Coffee Can", 2.90, "Smooth ready-to-drink coffee.", 26, "/static/images/coldcoffcan.jpg"),
+            Product(15, "DAIRY001", "Strawberry Yogurt Cup", 1.70, "Creamy yogurt with real strawberry bits.", 19, "/static/images/berrygurt.jpg"),
         ]
         for product in products:
             self.products[product.product_id] = product
