@@ -46,8 +46,8 @@ class ShoppingCart:
         for item in self.items:
             if item.product.product_id == product_id:
                 # Allow setting quantity beyond stock so the UI can warn users and block checkout
-                item.update_quantity(quantity)
-                return True
+                    item.update_quantity(quantity)
+                    return True
         return False
     
     def get_total(self) -> float:
